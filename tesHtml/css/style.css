@@ -1,0 +1,130 @@
+body{
+    padding-top: 10px;
+}
+
+.logo_and_ads{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 500;
+	background-color:#333;
+	color:#FFF;
+}
+
+.navbar a {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 500;
+}
+
+.navbar a:focus {
+    outline: 0;
+	color:#FFF;
+	background-color:#3c763d;
+}
+
+.navbar a:active {
+    outline: 0;
+	color:#000;
+	background-color:#3c763d;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+	display:block;
+	color:#FFF;
+
+}
+
+.navbar .navbar-nav li a {
+    letter-spacing: 1px;
+	display:block;
+	color:#FFF;
+
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+	color:#FFF;
+	background-color:#3c763d;
+}
+
+.navbar .navbar-nav li a:hover {
+    outline: 0;
+	color:#FFF;
+	background-color:#3c763d;
+}
+
+.navbar .navbar-nav li a:active {
+    outline: 0;
+	color:#FFF;
+	background-color:#3c763d;
+}
+
+.navbar .navbar-nav li a.active {
+    outline: 0;
+	color:#FFF;
+	background-color:#3c763d;
+}
+
+.navbar .navbar-nav li a.active:hover {
+    outline: 0;
+	color:#FFF;
+	background-color:#3c763d;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 96px;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
