@@ -131,7 +131,6 @@ body{
 
 .thumbnail {
   height: 320px;
-  background-color: #f5f5f5;
 }
 .thumbnail > img {
   min-width: 100%;
@@ -139,8 +138,8 @@ body{
 }
 
 .side-news{
-    background-color: #f5f5f5;
     padding: 8px;
+    border-left: 1px solid;
 }
 
 .side-news > .media > img {
